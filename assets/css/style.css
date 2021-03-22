@@ -9,13 +9,12 @@ html {
   }
   
   body {
-    font-family: Roboto, sans-serif;
+    font-family: Monospace, Roboto, sans-serif;
   }
 
 /* Nav 
 *
 */
-
   .navbar {
     /* make the navbar a flex container with display:flex; > this makes its direct children flex items  */
     display: flex;
@@ -28,10 +27,20 @@ html {
     padding-top: 10px;
     padding-bottom: 10px;;
   }
-  
+
   .logo {
     display: inline-block;
   }
+
+#helloDarrin {
+  border-radius: 80px;
+}
+
+h1 {
+  color: white;
+  justify-content: flex-start;
+  display: inline;
+}
   
   .nav-links {
     list-style: none;
@@ -257,7 +266,12 @@ h2 {
         margin-bottom: 20px;
         background-color: teal;
          }
-    h2 {
+
+         h1 {
+           display: none;
+         }
+    
+         h2 {
         position: absolute-left;
         min-width: ;
         font-size: ;
