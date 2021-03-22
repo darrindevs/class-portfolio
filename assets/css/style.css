@@ -104,6 +104,7 @@ main {
     justify-content:;
     border-style: dashed;
     border-color: snow;
+    background-color: thistle;
      }
 
 .inner-container {
@@ -114,7 +115,7 @@ main {
     margin-right: 50px;
     margin-top: 20px; 
     margin-bottom: 20px;
-    background-color:;
+    background-color: tomato;
      }
 
 
@@ -126,7 +127,7 @@ h2 {
 /* Creates a vertical line 
 *
 */
-.verticle-line {
+.vertical-line {
     border-left: 5px solid black;
     height: 100%;
     margin-left:;
@@ -142,21 +143,23 @@ h2 {
   */
 
 .projects {
-    flex: 1;
     background-color: white;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: inherit;
   }
 
   .box {
     border-style: solid;
     border-color: white;
+    background-color: blue;
     border-width: 5px;
     padding:;
     flex:;
     margin-bottom: 0px;
+    display:;
   }
 
 #work-1 {
@@ -179,8 +182,11 @@ h2 {
 .card-big {
       border-style: solid;
       border-color: black;
+      background-color: yellowgreen;
+      width: 100%;
       border-width: 5px;
       height: 400px;
+      display: flex;
 }
 
 .card-small {
@@ -188,15 +194,105 @@ h2 {
     border-color: black;
     border-width: 5px;
     height: 200px;
+    display: flex;
 }
+
+.inner-card-big {
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 40px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.inner-card-small {
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 40px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    margin-bottom: 5px;
+}
+
+/* Contact */
+
+#contact-me {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+.contact-link {
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
 
 /* Footer */
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-    
+    .section-container {
+        background-color: tomato
+        
+    }
+    .inner-container {
+        /*   */
+        display: flex;
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 0px;
+        margin-top: 20px; 
+        margin-bottom: 20px;
+        background-color: teal;
+         }
+    h2 {
+        position: absolute-left;
+        min-width: ;
+        font-size: ;
+    }
+    .vertical-line {
+        display: none;
+      }
     .projects {
       flex-direction: column;
+    }
+    .card-big {
+        background-color: violet;
+    }
+    .inner-card-big {
+        border-style: solid;
+        border-color: black;
+        background-color: red;
+        color: white;
+        display: block;
+        width: 100%;
+        padding: 5px;
+        align-self: flex-end;
+        
+    }
+    
+    .inner-card-small {
+        border-style: solid;
+        border-color: black;
+        background-color: green;
+        color: white;
+        display: block;
+        width: 100%;
+        padding: 5px;
+        align-self: flex-end;
+        
     }
     #work-2 {
         width: 100%;
@@ -209,5 +305,13 @@ h2 {
     }
     #work-5 {
         width: 100%;
+    }
+    #contact-me {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex: 1;
+        
+        
     }
   }
