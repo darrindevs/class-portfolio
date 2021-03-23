@@ -101,6 +101,8 @@ h1 {
  /* make #subtitle go all the way right*/
  flex-direction: column;
  background-image: url('/assets/images/pattern_002.jpg');
+ /* Make the images accessible */
+ background-image: alt("abstract pattern");
     background-repeat: no-repeat;
     background-size: 2500px 1000px;
     margin-bottom: 50px;
@@ -200,7 +202,9 @@ h2 {
     width: 100%;
     /* backup color in case the image doesn't load */
     background-color: grey;
-    background-image: url('/assets/images/laptop_001.jpg');
+    background-image: url('/assets/images/pattern_005.jpg');
+    /* Make the images accessible */
+ background-image: alt("abstract pattern");
     background-repeat: no-repeat;
     background-size: 2500px 1000px;
     
@@ -209,7 +213,9 @@ h2 {
   width: 50%;
   /* backup color in case the image doesn't load */
   background-color: grey;
-  background-image: url('/assets/images/laptop_002.jpg');
+  background-image: url('/assets/images/pattern_006.jpg');
+  /* Make the images accessible */
+  background-image: alt("abstract pattern");
   background-repeat: no-repeat;
   background-size: 1500px 500px;
 }
@@ -217,7 +223,9 @@ h2 {
   width: 50%;
    /* backup color in case the image doesn't load */
    background-color: grey;
-   background-image: url('/assets/images/laptop_004.jpg');
+   background-image: url('/assets/images/pattern_007.jpg');
+   /* Make the images accessible */
+   background-image: alt("abstract pattern");
    background-repeat: no-repeat;
    background-size: 1500px 500px;
 }
@@ -225,7 +233,9 @@ h2 {
   width:50%;
    /* backup color in case the image doesn't load */
    background-color: grey;
-   background-image: url('/assets/images/laptop_006.jpg');
+   background-image: url('/assets/images/pattern_009.jpg');
+   /* Make the images accessible */
+  background-image: alt("abstract pattern");
    background-repeat: no-repeat;
    background-size: 1500px 500px;
 }
@@ -233,7 +243,9 @@ h2 {
   width: 50%;
    /* backup color in case the image doesn't load */
    background-color: grey;
-   background-image: url('/assets/images/laptop_007.jpg');
+   background-image: url('/assets/images/pattern_008.jpg');
+   /* Make the images accessible */
+   background-image: alt("abstract pattern");
    background-repeat: no-repeat;
    background-size: 1500px 500px;
 }
@@ -249,7 +261,7 @@ h2 {
 
 .card-small {
     border-style: solid;
-    border-color: black;
+    border-color: transparent;
     border-width: 5px;
     height: 200px;
     display: flex;
