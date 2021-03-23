@@ -107,13 +107,7 @@ main {
     /* makes the section a flex container with display:flex; > this makes its direct children flex items  */
     display: flex;
     width: 100%;
-    flex-direction:;
-    background-color:;
-    align-items:;
-    justify-content:;
-    border-style: dashed;
-    border-color: snow;
-    background-color: thistle;
+    background-color: white;
      }
 
 .inner-container {
@@ -124,7 +118,7 @@ main {
     margin-right: 50px;
     margin-top: 20px; 
     margin-bottom: 20px;
-    background-color: tomato;
+    background-color: white;
      }
 
 
@@ -163,7 +157,7 @@ h2 {
   .box {
     border-style: solid;
     border-color: white;
-    background-color: blue;
+    background-color: white;
     border-width: 5px;
     padding:;
     flex:;
@@ -276,10 +270,7 @@ h2 {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-    .section-container {
-        background-color: tomato
-        
-    }
+    
     .inner-container {
         /*   */
         display: flex;
@@ -288,7 +279,7 @@ h2 {
         margin-right: 0px;
         margin-top: 20px; 
         margin-bottom: 20px;
-        background-color: teal;
+      
          }
 
          h1 {
@@ -306,13 +297,11 @@ h2 {
     .projects {
       flex-direction: column;
     }
-    .card-big {
-        background-color: violet;
-    }
+    
     .inner-card-big {
         border-style: solid;
         border-color: black;
-        background-color: red;
+        background-color: black;
         color: white;
         display: block;
         width: 100%;
@@ -324,7 +313,7 @@ h2 {
     .inner-card-small {
         border-style: solid;
         border-color: black;
-        background-color: green;
+        background-color: black;
         color: white;
         display: block;
         width: 100%;
