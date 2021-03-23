@@ -60,7 +60,7 @@ h1 {
   }
   
   .nav-item:hover a {
-    color: darkgreen;
+    color: black;
   }
   
   .logo img {
@@ -173,25 +173,49 @@ h2 {
 
 #work-1 {
     width: 100%;
+    /* backup color in case the image doesn't load */
+    background-color: grey;
+    background-image: url('/assets/images/laptop_001.jpg');
+    background-repeat: no-repeat;
+    background-size: 2500px 1000px;
+    
 }
 #work-2 {
   width: 50%;
-  margin-right:;
+  /* backup color in case the image doesn't load */
+  background-color: grey;
+  background-image: url('/assets/images/laptop_002.jpg');
+  background-repeat: no-repeat;
+  background-size: 1500px 500px;
 }
 #work-3 {
   width: 50%;
+   /* backup color in case the image doesn't load */
+   background-color: grey;
+   background-image: url('/assets/images/laptop_004.jpg');
+   background-repeat: no-repeat;
+   background-size: 1500px 500px;
 }
 #work-4 {
   width:50%;
+   /* backup color in case the image doesn't load */
+   background-color: grey;
+   background-image: url('/assets/images/laptop_006.jpg');
+   background-repeat: no-repeat;
+   background-size: 1500px 500px;
 }
 #work-5 {
   width: 50%;
+   /* backup color in case the image doesn't load */
+   background-color: grey;
+   background-image: url('/assets/images/laptop_007.jpg');
+   background-repeat: no-repeat;
+   background-size: 1500px 500px;
 }
 
 .card-big {
       border-style: solid;
       border-color: black;
-      background-color: yellowgreen;
       width: 100%;
       border-width: 5px;
       height: 400px;
