@@ -12,6 +12,23 @@ html {
     font-family: Monospace, Roboto, sans-serif;
   }
 
+  a:hover {
+    color: black;
+  }
+
+  /* Font Awesome */
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;;
+}
+
+i {
+  margin-right: 10px;
+}
+
+
 /* Nav 
 *
 */
@@ -60,7 +77,7 @@ h1 {
   }
   
   .nav-item:hover a {
-    color: black;
+    color: grey;
   }
   
   .logo img {
@@ -83,6 +100,10 @@ h1 {
  align-content: center;
  /* make #subtitle go all the way right*/
  flex-direction: column;
+ background-image: url('/assets/images/pattern_002.jpg');
+    background-repeat: no-repeat;
+    background-size: 2500px 1000px;
+    margin-bottom: 50px;
   }
 
 #subtitle {
@@ -99,6 +120,7 @@ h1 {
 /* Main */
 
 main {
+  margin-bottom: 50px;
   }
 
 /* Flex Containers */
@@ -127,18 +149,23 @@ h2 {
     min-width: 100px;
 }
 
+#about p {
+  margin-left: 15px;
+}
+
 /* Creates a vertical line 
 *
 */
 .vertical-line {
     border-left: 5px solid black;
     height: 100%;
-    margin-left:;
+    margin-left: 15px;
     margin-right: 50px;
   }
 
   p {
     margin-right: 30px;
+    font-size: 22px;
 }
 
   /* Work
@@ -163,6 +190,10 @@ h2 {
     flex:;
     margin-bottom: 0px;
     display:;
+  }
+
+  .project-link {
+    display: flex;
   }
 
 #work-1 {
@@ -252,21 +283,22 @@ h2 {
 
 /* Contact */
 
+
+
 #contact-me {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     flex: 1;
     
+    
 }
 
 .contact-link {
     padding-left: 10px;
     padding-right: 50px;
+    font-size: 18px;
 }
-
-
-/* Footer */
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
@@ -337,8 +369,9 @@ h2 {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        flex: 1;
-        
-        
+        flex: 1;   
+    }
+    .contact-link {
+      margin-left: 10px;
     }
   }
