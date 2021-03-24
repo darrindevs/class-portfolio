@@ -1,3 +1,11 @@
+
+/* Create CSS variables at the root of the document to be used throughout the style sheet */
+:root {
+  --white: #fff;
+  --gray: #808080;
+  --dark: #000;
+}
+
 html {
     box-sizing: border-box;
   }
@@ -13,14 +21,14 @@ html {
   }
 
   a:hover {
-    color: black;
+    color: var(--dark);
   }
 
   /* Font Awesome */
 
 .contact-link {
   text-decoration: none;
-  color: black;
+  color: var(--dark);
   margin-bottom: 5px;;
 }
 
@@ -38,7 +46,7 @@ i {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: black;
+    background-color: var(--dark);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -54,7 +62,7 @@ i {
 }
 
 h1 {
-  color: white;
+  color: var(--white);
   justify-content: flex-start;
   display: inline;
 }
@@ -68,16 +76,16 @@ h1 {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color: var(--white);
   }
   
   .nav-item:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--dark);
   }
   
   .nav-item:hover a {
-    color: grey;
+    color: var(--gray);
   }
   
   .logo img {
@@ -94,7 +102,7 @@ h1 {
  display: flex;
  width: 100%;
  height: 150px;;
- background-color: grey;
+ background-color: var(--gray);
  justify-content: center;
  align-items: center;
  align-content: center;
@@ -109,7 +117,7 @@ h1 {
   }
 
 #subtitle {
-  background-color: white;
+  background-color: var(--white);
   margin-top: 50px;
   margin-bottom: 20px;
   margin-right: 100px;
@@ -131,7 +139,7 @@ main {
     /* makes the section a flex container with display:flex; > this makes its direct children flex items  */
     display: flex;
     width: 100%;
-    background-color: white;
+    background-color: var(--white);
      }
 
 .inner-container {
@@ -142,7 +150,7 @@ main {
     margin-right: 50px;
     margin-top: 20px; 
     margin-bottom: 20px;
-    background-color: white;
+    background-color: var(--white);
      }
 
 
@@ -159,7 +167,7 @@ h2 {
 *
 */
 .vertical-line {
-    border-left: 5px solid black;
+    border-left: 5px solid var(--dark);
     height: 100%;
     margin-left: 15px;
     margin-right: 50px;
@@ -175,7 +183,7 @@ h2 {
   */
 
 .projects {
-    background-color: white;
+    background-color: var(--white);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -185,8 +193,8 @@ h2 {
 
   .box {
     border-style: solid;
-    border-color: white;
-    background-color: white;
+    border-color: var(--white);
+    background-color: var(--white);
     border-width: 5px;
     padding:;
     flex:;
@@ -198,10 +206,15 @@ h2 {
     display: flex;
   }
 
+.text-small {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
 #work-1 {
     width: 100%;
     /* backup color in case the image doesn't load */
-    background-color: grey;
+    background-color: var(--gray);
     background-image: url('/assets/images/pattern_005.jpg');
     /* Make the images accessible */
  background-image: alt("abstract pattern");
@@ -212,7 +225,7 @@ h2 {
 #work-2 {
   width: 50%;
   /* backup color in case the image doesn't load */
-  background-color: grey;
+  background-color: var(--grey);
   background-image: url('/assets/images/pattern_006.jpg');
   /* Make the images accessible */
   background-image: alt("abstract pattern");
@@ -222,7 +235,7 @@ h2 {
 #work-3 {
   width: 50%;
    /* backup color in case the image doesn't load */
-   background-color: grey;
+   background-color: var(--grey);
    background-image: url('/assets/images/pattern_007.jpg');
    /* Make the images accessible */
    background-image: alt("abstract pattern");
@@ -232,7 +245,7 @@ h2 {
 #work-4 {
   width:50%;
    /* backup color in case the image doesn't load */
-   background-color: grey;
+   background-color: var(--grey);
    background-image: url('/assets/images/pattern_009.jpg');
    /* Make the images accessible */
   background-image: alt("abstract pattern");
@@ -242,7 +255,7 @@ h2 {
 #work-5 {
   width: 50%;
    /* backup color in case the image doesn't load */
-   background-color: grey;
+   background-color: var(--grey);
    background-image: url('/assets/images/pattern_008.jpg');
    /* Make the images accessible */
    background-image: alt("abstract pattern");
@@ -252,7 +265,7 @@ h2 {
 
 .card-big {
       border-style: solid;
-      border-color: black;
+      border-color: var(--dark);
       width: 100%;
       border-width: 5px;
       height: 400px;
@@ -269,9 +282,9 @@ h2 {
 
 .inner-card-big {
     border-style: solid;
-    border-color: black;
-    background-color: black;
-    color: white;
+    border-color: var(--dark);
+    background-color: var(--dark);
+    color: var(--white);
     display: inline-block;
     padding: 40px;
     align-self: flex-end;
@@ -280,9 +293,9 @@ h2 {
 
 .inner-card-small {
     border-style: solid;
-    border-color: black;
-    background-color: black;
-    color: white;
+    border-color: var(--dark);
+    background-color: var(--dark);
+    color: var(--white);
     display: inline-block;
     padding: 40px;
     align-self: flex-end;
@@ -344,9 +357,9 @@ h2 {
     
     .inner-card-big {
         border-style: solid;
-        border-color: black;
-        background-color: black;
-        color: white;
+        border-color: var(--dark);
+        background-color: var(--dark);
+        color: var(--white);
         display: block;
         width: 100%;
         padding: 5px;
@@ -356,9 +369,9 @@ h2 {
     
     .inner-card-small {
         border-style: solid;
-        border-color: black;
-        background-color: black;
-        color: white;
+        border-color: var(--dark);
+        background-color: var(--dark);
+        color: var(--white);
         display: block;
         width: 100%;
         padding: 5px;

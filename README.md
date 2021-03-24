@@ -1,5 +1,6 @@
 # Class Portfolio
-![Class Portfolio](/assets/images/class_portfolio.png)
+<img src="assets/images/class_portfolio.png" alt="Pic of application"
+title="Class Portfolio" width="150" />
 
 ## Deployed Application
 [Class Portfolio](https://darrindevs.github.io/class-portfolio/)
