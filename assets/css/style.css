@@ -117,7 +117,7 @@ align-content: center;
 /* make #subtitle go all the way right*/
 flex-direction: column;
 background-image: url('https://zno.s3-us-west-1.amazonaws.com/pattern_002.jpg');
-/* background-image: url('/assets/images/pattern_002.jpg');8?
+/* NOT WORKING IN PROD> background-image: url('/assets/images/pattern_002.jpg');*/
 /* Make the images accessible */
 background-image: alt("abstract pattern");
 background-position: center;
@@ -223,6 +223,7 @@ p {
   width: 100%;
   /* backup color in case the image doesn't load */
   background-color: grey;
+  /* NOT WORKING IN PROD> background-image: url('/assets/images/pattern_005.jpg');*/
   background-image: url('/assets/images/pattern_005.jpg');
   /* Make the images accessible */
   background-image: alt("abstract pattern");
@@ -236,7 +237,8 @@ p {
   width: 50%;
 /* backup color in case the image doesn't load */
   background-color: var(--gray);
-  background-image: url('/assets/images/pattern_006.jpg');
+  /* NOT WORKING IN PROD> background-image: url('/assets/images/pattern_006.jpg');*/
+  background-image: url('https://zno.s3-us-west-1.amazonaws.com/pattern_006.jpg');
 /* Make the images accessible */
   background-image: alt("abstract pattern");
   background-position: center;
@@ -248,7 +250,8 @@ p {
   width: 50%;
  /* backup color in case the image doesn't load */
   background-color: var(--gray);
-  background-image: url('/assets/images/pattern_007.jpg');
+  /* NOT WORKING IN PROD> background-image: url('/assets/images/pattern_007.jpg');*/
+  background-image: url('https://zno.s3-us-west-1.amazonaws.com/pattern_007.jpg');
  /* Make the images accessible */
   background-image: alt("abstract pattern");
   background-position: center;
@@ -260,7 +263,8 @@ p {
   width:50%;
  /* backup color in case the image doesn't load */
   background-color: var(--gray);
-  background-image: url('/assets/images/pattern_009.jpg');
+  /* NOT WORKING IN PROD> background-image: url('/assets/images/pattern_009.jpg');*/
+  background-image: url('https://zno.s3-us-west-1.amazonaws.com/pattern_009.jpg');
  /* Make the images accessible */
   background-image: alt("abstract pattern");
   background-position: center;
@@ -272,7 +276,8 @@ p {
   width: 50%;
  /* backup color in case the image doesn't load */
   background-color: var(--gray);
-  background-image: url('/assets/images/pattern_008.jpg');
+  /* NOT WORKING IN PROD> background-image: url('/assets/images/pattern_008.jpg');*/
+  background-image: url('https://zno.s3-us-west-1.amazonaws.com/pattern_008.jpg');
  /* Make the images accessible */
   background-image: alt("abstract pattern");
   background-position: center;
