@@ -224,7 +224,7 @@ p {
   /* backup color in case the image doesn't load */
   background-color: grey;
   /* NOT WORKING IN PROD> background-image: url('/assets/images/pattern_005.jpg');*/
-  background-image: url('/assets/images/pattern_005.jpg');
+  background-image: url('https://zno.s3-us-west-1.amazonaws.com/pattern_005.jpg');
   /* Make the images accessible */
   background-image: alt("abstract pattern");
   background-position: center;
