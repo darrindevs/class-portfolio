@@ -116,7 +116,8 @@ align-items: center;
 align-content: center;
 /* make #subtitle go all the way right*/
 flex-direction: column;
-background-image: url('/assets/images/pattern_002.jpg');
+background-image: url('https://zno.s3-us-west-1.amazonaws.com/pattern_002.jpg');
+/* background-image: url('/assets/images/pattern_002.jpg');8?
 /* Make the images accessible */
 background-image: alt("abstract pattern");
 background-position: center;
