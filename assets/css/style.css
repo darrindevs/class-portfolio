@@ -347,7 +347,18 @@ p {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   
-.inner-container {
+  #subtitle {
+    background-color: var(--white);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding: 10px;
+    align-self:flex-end;
+    
+    }
+
+  .inner-container {
   display: flex;
   width: 100%;
   margin-left: 25px;
